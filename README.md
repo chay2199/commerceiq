@@ -4,7 +4,7 @@
 1. install minikube and kubectl
 2. install helm
 ### Task1: Create a web application that prints Good Morning/Noon/Evening depending on the current time.
-**Solution:** The web app is a simple express app. You can find the application code in the directory timeiq. The directory also includes the required
+**Solution:** The web app is a simple express app. Note that the web app works according to the GMT timezone. You can find the application code in the directory timeiq. The directory also includes the required
 Dockerfile so that the app can run in a container.
 ### Task2: All operations in this question should be performed in a custom namespace on minikube. 
 **Solution:** For this we will create to namespace namely beta and production. The commands used are as follows:
